@@ -1,12 +1,12 @@
-# IndiAir - Indian Airline Booking Platform
+# WestJet-App - Airline Booking Platform
 
-A comprehensive Indian airline booking platform that offers a seamless and culturally-rich flight reservation experience.
+A comprehensive airline booking platform for WestJet, offering a seamless and user-friendly flight reservation experience tailored for Canadian travelers.
 
-![IndiAir Logo](./client/src/assets/logo.png)
+![WestJet Logo](./client/src/assets/logo.png)
 
 ## Features
 
-- **Cultural Design**: Vibrant UI inspired by Indian culture and colors
+- **Modern Design**: Clean UI inspired by WestJet branding and colors
 - **Complete Booking Flow**: Search flights, select seats, payment processing, and booking confirmation
 - **Responsive Design**: Mobile-first approach ensuring compatibility across devices
 - **Real-time Updates**: Instant confirmation and booking details
@@ -19,7 +19,7 @@ A comprehensive Indian airline booking platform that offers a seamless and cultu
 - **Database**: PostgreSQL with Drizzle ORM
 - **State Management**: React Query
 - **Forms**: React Hook Form with Zod validation
-- **Styling**: Tailwind CSS with custom theming based on Indian flag colors
+- **Styling**: Tailwind CSS with custom theming based on WestJet brand colors
 
 ## Prerequisites
 
@@ -33,8 +33,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/indiair.git
-cd indiair
+git clone https://github.com/Anant2510/WestJet-App.git
+cd WestJet-App
 ```
 
 ### 2. Install dependencies
@@ -49,7 +49,7 @@ Create a `.env` file in the root directory with the following variables:
 
 ```
 # Database Configuration
-DATABASE_URL=postgres://yourusername:yourpassword@localhost:5432/indiair
+DATABASE_URL=postgres://yourusername:yourpassword@localhost:5432/westjet
 
 # Optional: Stripe Payment (if implementing payment gateway)
 STRIPE_SECRET_KEY=your_stripe_secret_key
@@ -61,7 +61,7 @@ VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key
 Ensure PostgreSQL is running on your machine, then create a new database:
 
 ```bash
-createdb indiair
+createdb westjet
 ```
 
 Run the database migrations:
@@ -115,7 +115,7 @@ The application will be available at http://localhost:5000
 
 For a quick test of the booking flow:
 
-1. Search for a flight (e.g., Mumbai to Singapore)
+1. Search for a flight (e.g., Toronto to Vancouver)
 2. Click "Book Now" on any flight
 3. Select seats on the seat map
 4. Click "Proceed to Payment"
