@@ -26,7 +26,7 @@ function captureClickEvent(event) {
 
 // Function to send data to the server
 function sendDataToServer(data) {
-    fetch('http://localhost:5000', { // Ensure this matches your server endpoint
+    fetch('http://localhost:5173/', { // Ensure this matches your server endpoint
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

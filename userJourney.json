@@ -6,7 +6,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-12T06:16:48.805Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -18,7 +18,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-12T06:17:18.606Z",
-        "url": "http://localhost:5000/",
+        "url": "http://localhost:5173/",
         "pageName": "Home Page"
       }
     ]
@@ -30,7 +30,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-12T06:26:21.817Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -47,7 +47,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-12T06:30:40.730Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -64,7 +64,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-12T06:40:50.555Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -76,7 +76,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-12T06:45:35.836Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -88,7 +88,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-12T06:53:50.876Z",
-        "url": "http://localhost:5000/",
+        "url": "http://localhost:5173/",
         "pageName": "Home Page"
       }
     ]
@@ -100,7 +100,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-12T07:00:32.741Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -112,7 +112,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T07:49:07.332Z",
-        "url": "http://localhost:5000/",
+        "url": "http://localhost:5173/",
         "pageName": "Home Page"
       }
     ]
@@ -124,7 +124,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T07:53:01.540Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -136,7 +136,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T07:53:10.934Z",
-        "url": "http://localhost:5000/",
+        "url": "http://localhost:5173/",
         "pageName": "Home Page"
       }
     ]
@@ -148,7 +148,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T07:55:14.836Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -160,7 +160,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T08:09:56.107Z",
-        "url": "http://localhost:5000/",
+        "url": "http://localhost:5173/",
         "pageName": "Home Page"
       }
     ]
@@ -172,7 +172,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T08:11:58.865Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -184,7 +184,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T08:19:56.670Z",
-        "url": "http://localhost:5000/",
+        "url": "http://localhost:5173/",
         "pageName": "Home Page"
       }
     ]
@@ -196,7 +196,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T08:21:58.937Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -208,7 +208,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T08:23:44.770Z",
-        "url": "http://localhost:5000/",
+        "url": "http://localhost:5173/",
         "pageName": "Home Page"
       }
     ]
@@ -220,7 +220,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T08:25:47.547Z",
-        "url": "http://localhost:5000/login",
+        "url": "http://localhost:5173/login",
         "pageName": "Login Page"
       }
     ]
@@ -232,7 +232,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T08:31:23.250Z",
-        "url": "http://localhost:5000/",
+        "url": "http://localhost:5173/",
         "pageName": "Home Page"
       }
     ]
@@ -244,7 +244,7 @@
       {
         "eventType": "pageLoad",
         "timestamp": "2025-05-13T08:36:29.630Z",
-        "url": "http://localhost:5000/",
+        "url": "http://localhost:5173/",
         "pageName": "Home Page"
       }
     ]

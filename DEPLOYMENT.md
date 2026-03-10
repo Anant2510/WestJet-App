@@ -63,7 +63,7 @@ npm run build
 npm start
 ```
 
-The application will be available at http://localhost:5000
+The application will be available at http://localhost:5173
 
 ## Production Deployment
 
@@ -101,7 +101,7 @@ server {
     server_name yourdomain.com;
 
     location / {
-        proxy_pass http://localhost:5000;
+        proxy_pass http://localhost:5173;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';

@@ -66,4 +66,4 @@ echo "Running database migrations..."
 npm run db:push
 
 echo "Setup complete! Start the application with: npm run dev"
-echo "Access the application at: http://localhost:5000"
+echo "Access the application at: http://localhost:5173"
