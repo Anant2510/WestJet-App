@@ -2,22 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <!-- Keep simple, compatible viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Flights and Vacation packages | Westjet Official Site</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <script>
-      window.dataLayer = window.dataLayer || [];
-    </script>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-52Z6T8LC');</script>
-    <script src="https://assets.adobedtm.com/de3a66fdc88b/4b828596e9e1/launch-433fc164cb77-development.min.js" async></script>
-    <script type="module" crossorigin src="/assets/index-COWF3Mfg.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-NLBNDjo4.css">
+
+    <!-- Optional: Google Fonts (requires internet) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- App CSS: use relative path; ensure the file exists in assets -->
+    <link rel="stylesheet" href="./assets/index.css" />
+
+    <!-- Avoid analytics/trackers inside WebView to prevent blocks -->
+    <!-- Removed: GTM, Adobe Launch, Replit banner -->
+    <style>
+      /* Safe fallback fonts if Google Fonts blocked */
+      :root {
+        --font-sans: "Poppins", "Open Sans", system-ui, -apple-system, Segoe UI,
+          Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+      }
+      html, body, #root {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: #ffffff;
+        color: #111827;
+      }
+      /* Optional: hide scroll bounce artifacts in iOS */
+      body {
+        overscroll-behavior: none;
+      }
+    </style>
   </head>
   <body>
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52Z6T8LC"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="root"></div>
-    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+
+    <!-- Prefer a non-module, self-contained bundle produced by your build -->
+    <!-- Example: Vite/Rollup/Webpack output targeting IIFE/UMD -->
+    <script src="./assets/index.iife.js"></script>
+
+    <!-- If you *must* use modules, keep relative path and make sure the WebView supports it:
+    <script type="module" src="./assets/index.esm.js"></script>
+    -->
   </body>
 </html>
